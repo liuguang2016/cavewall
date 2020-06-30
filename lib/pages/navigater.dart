@@ -36,14 +36,14 @@ class _NavigaterState extends State<Navigater> {
         currentIndex: _currentIndex,
         onTap: _onItemTapped,
         type: BottomNavigationBarType.fixed,
-        fixedColor: Colors.blue[800],
+        fixedColor: Theme.of(context).accentColor,
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-            icon: Icon(AppIcons.dupianhui),
+            icon: Icon(AppIcons.home),
             title: Text('首页'),
           ),
           BottomNavigationBarItem(
-            icon: Icon(AppIcons.ku),
+            icon: Icon(AppIcons.my),
             title: Text('我'),
           )
         ],

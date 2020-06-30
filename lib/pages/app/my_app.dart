@@ -32,7 +32,7 @@ class _MyAppState extends State<MyApp> {
             //全局样式
             theme: ThemeData(
               primaryColor: Colors.white,
-              accentColor: Colors.blue[600],
+              accentColor: Colors.red[900],
               fontFamily: 'PingFang',
             ),
             //去掉调试
