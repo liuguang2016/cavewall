@@ -40,15 +40,17 @@ class _SplashPageState extends State<SplashPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white, // 背景色
-      body: Container(
-        decoration: BoxDecoration(
-          image: DecorationImage(
-              image: AssetImage("assets/images/splash.png"), fit: BoxFit.cover),
-        ),
-        child: Center(
-          child: Text(
-            '',
-          ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: <Widget>[
+            Image.asset("assets/images/log.png"),
+            Text(
+              '一直在寻找',
+              style: MyTextStyles.listTitle,
+            ),
+          ],
         ),
       ),
     );
